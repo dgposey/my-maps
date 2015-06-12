@@ -1,5 +1,7 @@
 # My Maps Wordpress plugin
+
 ** by David Posey **
+
 [davidgposey.com](http://www.davidgposey.com)
 
 ## Google Maps API Key
@@ -17,12 +19,12 @@ This is a general purpose template tag for use in any of your template files:
 the_map($address, $zoom, $type, $width, $height, $map_id)
 ```
 
-`$address`: string: required: Any address that is recognizable by Google Maps.
-`$zoom`: integer: optional: Any value from 0 (entire world) to 21 (very close up)
-`$type`: string: optional: Any of the four values ROADMAP, SATELLITE, HYBRID, or TERRAIN
-`$width`: integer: optional: The width in pixels of your map.
-`$height`: integer: optional: The height in pixels of your map.
-`$map_id`: string: optional: A unique string identifying this map.
+-`$address`: string: required: Any address that is recognizable by Google Maps.
+-`$zoom`: integer: optional: Any value from 0 (entire world) to 21 (very close up)
+-`$type`: string: optional: Any of the four values ROADMAP, SATELLITE, HYBRID, or TERRAIN
+-`$width`: integer: optional: The width in pixels of your map.
+-`$height`: integer: optional: The height in pixels of your map.
+-`$map_id`: string: optional: A unique string identifying this map.
 
 ### the_map_cpt
 This template tag is for use only in single-map.php, the template file for a Map custom post type.  It accepts no arguments; instead it takes values from the fields in your custom post type.
